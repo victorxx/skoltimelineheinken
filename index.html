@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Notícias atualizadas sobre Heineken e Skol. Saiba tudo sobre campanhas, lançamentos e curiosidades.">
+    <meta name="keywords" content="Heineken, Skol, cerveja, marketing, propaganda, sustentabilidade, bebidas, campanha">
+    <meta name="author" content="Seu Nome">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Notícias Heineken e Skol">
+    <meta property="og:description" content="As últimas novidades do mundo das cervejas: Heineken e Skol em destaque.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://via.placeholder.com/800x400?text=Heineken+Skol">
+    <meta property="og:url" content="https://seusite.com.br">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Notícias Heineken e Skol">
+    <meta name="twitter:description" content="As novidades mais quentes do mundo das cervejas estão aqui.">
+    <meta name="twitter:image" content="https://via.placeholder.com/800x400?text=Heineken+Skol">
+
+    <title>Notícias Heineken e Skol - Atualizadas</title>
+
+    <style>
+        :root {
+            --verde-heineken: #007A33;
+            --amarelo-skol: #FFCC00;
+            --cinza-fundo: #f4f4f4;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--cinza-fundo);
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, var(--verde-heineken), var(--amarelo-skol));
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        article {
+            background: white;
+            border-left: 8px solid var(--verde-heineken);
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+        }
+        article h2 {
+            color: var(--verde-heineken);
+        }
+        article img {
+            width: 100%;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .blinking-ad {
+            background-color: var(--amarelo-skol);
+            color: #000;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 12px;
+            border-radius: 8px;
+            animation: blink 1.2s infinite;
+            position: fixed;
+            top: 70px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 999;
+            user-select: none;
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0.3; }
+            100% { opacity: 1; }
+        }
+        #audio-player-fixed {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #audio-player-fixed audio {
+            outline: none;
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        footer {
+            background: var(--verde-heineken);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.6em;
+            }
+            .blinking-ad {
+                font-size: 1em;
+                padding: 10px;
+                top: 60px;
+            }
+            #audio-player-fixed {
+                bottom: 10px;
+                right: 10px;
+                width: calc(100% - 20px);
+                box-sizing: border-box;
+                justify-content: center;
+            }
+            #audio-player-fixed audio {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Heineken & Skol - Notícias e Tendências</h1>
+    </header>
+
+    <!-- Anúncio piscante fixo na tela -->
+    <div class="blinking-ad" role="region" aria-label="Anúncio rotativo">
+        🍻 
+        <div id="novo">
+            <a href="#" id="ads" target="_blank" rel="noopener noreferrer" aria-describedby="ad-description">
+                CONFERIR
+            </a>
+        </div>
+        🍻
+    </div>
+
+    <main>
+        <!-- Artigos de notícia aqui (mantidos iguais ao seu exemplo) -->
+                    <article id="heineken-campanha-verde">
+                        <h2>Heineken aposta em inovação verde</h2>
+                        <img src="https://via.placeholder.com/800x400?text=Heineken" alt="Nova campanha verde da Heineken">
+                        <p>Em 2025, a Heineken lançou sua campanha mais sustentável até agora. Com o slogan <em>"Verde de Verdade"</em>, a marca visa eliminar 50% do uso de plástico em embalagens até 2030.</p>
+                    </article>
+                    <main>
+                <article id="heineken-campanha-verde">
+                    <h2>Heineken aposta em inovação verde</h2>
+                    <img src="https://via.placeholder.com/800x400?text=Heineken" alt="Nova campanha verde da Heineken">
+                    <p>Em 2025, a Heineken lançou sua campanha mais sustentável até agora. Com o slogan <em>"Verde de Verdade"</em>, a marca visa eliminar 50% do uso de plástico em embalagens até 2030.</p>
+                </article>
+
+                <article id="skol-lancamento-sazonal">
+                    <h2>Skol lança edição limitada de verão</h2>
+                    <img src="https://via.placeholder.com/800x400?text=Skol+Ver%C3%A3o" alt="Edição limitada de verão da Skol">
+                    <p>Com sabor tropical e refrescante, a nova Skol Verão promete conquistar os consumidores nas festas e eventos ao ar livre deste ano.</p>
+                </article>
+
+                <article id="heineken-evento-musical">
+                    <h2>Heineken patrocina festival de música eletrônica</h2>
+                    <img src="https://via.placeholder.com/800x400?text=Festival+Heineken" alt="Festival de música eletrônica patrocinado pela Heineken">
+                    <p>O evento reunirá DJs nacionais e internacionais, com experiências exclusivas para os fãs da marca.</p>
+                </article>
+
+                <article id="skol-campanha-sustentavel">
+                    <h2>Skol investe em campanha sustentável</h2>
+                    <img src="https://via.placeholder.com/800x400?text=Skol+Sustent%C3%A1vel" alt="Campanha sustentável da Skol">
+                    <p>A iniciativa visa reduzir o impacto ambiental e incentivar a reciclagem entre os consumidores.</p>
+                </article>
+
+                <article id="heineken-nova-embalagem">
+                    <h2>Heineken apresenta nova embalagem reciclável</h2>
+                    <img src="https://via.placeholder.com/800x400?text=Embalagem+Heineken" alt="Nova embalagem reciclável da Heineken">
+                    <p>O design inovador promete facilitar o descarte correto e aumentar a reciclagem entre os usuários.</p>
+                </article>
+
+                <article id="skol-parceria-festival">
+                    <h2>Skol fecha parceria com festival de arte urbana</h2>
+                    <img src="https://via.placeholder.com/800x400?text=Festival+Skol" alt="Festival de arte urbana apoiado pela Skol">
+                    <p>A colaboração reforça o compromisso da marca com a cultura jovem e criativa.</p>
+                </article>
+
+                <article id="heineken-tecnologia-bebida">
+                    <h2>Heineken investe em tecnologia para bebidas personalizadas</h2>
+                    <img src="https://via.placeholder.com/800x400?text=Tecnologia+Heineken" alt="Tecnologia para bebidas personalizadas da Heineken">
+                    <p>Novos equipamentos permitirão que consumidores criem sabores exclusivos em eventos especiais.</p>
+                </article>
+
+                <article id="skol-campanha-digital">
+                    <h2>Skol lança campanha digital interativa</h2>
+                    <img src="https://via.placeholder.com/800x400?text=Campanha+Digital+Skol" alt="Campanha digital interativa da Skol">
+                    <p>Usuários poderão participar de desafios e ganhar prêmios através das redes sociais.</p>
+                </article>
+
+                <article id="heineken-premiacao-sustentabilidade">
+                    <h2>Heineken recebe prêmio de sustentabilidade corporativa</h2>
+                    <img src="https://via.placeholder.com/800x400?text=Pr%C3%AAmio+Heineken" alt="Heineken recebe prêmio de sustentabilidade">
+                    <p>Reconhecimento internacional pela redução do uso de recursos naturais e incentivo à economia circular.</p>
+                </article>
+
+                <article id="skol-nova-receita">
+                    <h2>Skol apresenta nova receita com ingredientes naturais</h2>
+                    <img src="https://via.placeholder.com/800x400?text=Skol+Natural" alt="Nova receita natural da Skol">
+                    <p>A cerveja com sabor mais leve e refrescante é voltada para consumidores que buscam opções saudáveis.</p>
+                </article>
+
+                <article id="heineken-inovacao-embalagem">
+                    <h2>Heineken testa embalagem biodegradável</h2>
+                    <img src="https://via.placeholder.com/800x400?text=Embalagem+Biodegrad%C3%A1vel" alt="Teste de embalagem biodegradável da Heineken">
+                    <p>Projeto pioneiro visa diminuir o impacto ambiental e incentivar a sustentabilidade no setor de bebidas.</p>
+                </article>
+            </main>
+
+
+        <!-- Outras notícias mantidas iguais ... -->
+        <!-- (Você pode incluir todas as outras notícias aqui, conforme seu conteúdo) -->
+
+    </main>
+
+    <!-- Player fixo de áudio -->
+    <div id="audio-player-fixed" title="Ouça nosso jingle exclusivo 🎶">
+        <audio id="player-fixed" controls>
+            <source src="01.mp3" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </div>
+
+    <footer>
+        &copy; Notícias Cervejeiras. Desenvolvido com 💚 e 💛.
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Define volume inicial do player fixo
+        document.addEventListener("DOMContentLoaded", function () {
+            const player = document.getElementById("player-fixed");
+            if (player) player.volume = 0.2; // 20% de volume
+        });
+    </script>
+
+    <script>
+        // Array com os links que vão rodar automaticamente
+        const links = [
+            "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
+            "https://geocredibnkvitoria.com/",
+            "https://vpserp.vercel.app/",
+            "https://creditopessoal.vercel.app/",
+            "https://brasilbrasileiross.blogspot.com/",
+            "https://stfly.biz/7MNLF",
+            "https://www.espiritosanto-es.com.br/linhadotempovitoria/",
+            "https://piadasrepositorio.vercel.app/",
+            "https://www.youtube.com/watch?v=gBclanEnn88",
+            "https://ocomerciobrasileironoticia.blogspot.com/2025/05/erp-profissional-para-empresas.html",
+            "https://www.youtube.com/@gamenologia",
+            "https://jogosantigos472302513.wordpress.com/maquinas-vps-temos-todas-as-opcoes-de-maqinas-para-voce/",
+            "https://bibliadonline.netlify.app/",
+            "https://www.larissasaib.com.br/",
+            "https://remarkable-gelato-4db597.netlify.app/consorciopagina.html",
+            "https://www.airbnb.com.br/r/saibvictore?s=6&t=061n0g"
+        ];
+
+        // Função que atualiza o href do link "CONFERIR" a cada 5 segundos
+        function mudar() {
+            const linkElement = document.getElementById('ads');
+            if (!linkElement) return;
+
+            // Obtem índice atual do href no array
+            let currentIndex = links.indexOf(linkElement.href);
+            // Se não encontrar ou estiver no último, volta ao começo
+            if (currentIndex === -1 || currentIndex === links.length - 1) {
+                currentIndex = 0;
+            } else {
+                currentIndex++;
+            }
+
+            // Atualiza o href do link
+            linkElement.href = links[currentIndex];
+        }
+
+        // Inicializa o link com um valor aleatório quando a página carregar
+        window.addEventListener('DOMContentLoaded', () => {
+            const linkElement = document.getElementById('ads');
+            if (!linkElement) return;
+
+            const randomIndex = Math.floor(Math.random() * links.length);
+            linkElement.href = links[randomIndex];
+        });
+
+        // Configura a troca automática de links a cada 5 segundos (5000 ms)
+        setInterval(mudar, 0.5);
+    </script>
+</body>
+</html>
