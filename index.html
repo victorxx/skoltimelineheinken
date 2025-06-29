@@ -256,8 +256,8 @@
     </script>
 
     <script>
-        // Array com os links que vão rodar automaticamente
-        const links = [
+        function mudar(){
+              const links = [
             "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
             "https://geocredibnkvitoria.com/",
             "https://vpserp.vercel.app/",
@@ -275,36 +275,18 @@
             "https://remarkable-gelato-4db597.netlify.app/consorciopagina.html",
             "https://www.airbnb.com.br/r/saibvictore?s=6&t=061n0g"
         ];
-
-        // Função que atualiza o href do link "CONFERIR" a cada 5 segundos
-        function mudar() {
-            const linkElement = document.getElementById('ads');
-            if (!linkElement) return;
-
-            // Obtem índice atual do href no array
-            let currentIndex = links.indexOf(linkElement.href);
-            // Se não encontrar ou estiver no último, volta ao começo
-            if (currentIndex === -1 || currentIndex === links.length - 1) {
-                currentIndex = 0;
-            } else {
-                currentIndex++;
-            }
-
-            // Atualiza o href do link
-            linkElement.href = links[currentIndex];
+        function mudei(arr){
+            return Math.floor(Math.random()* arr.length);
         }
+        const link=mudei(links);
+        const escolhido=links[link];
+        document.getElementById('ads').href=escolhido;
+        
+        
+    }
+     setInterval(mudar,0.4);
 
-        // Inicializa o link com um valor aleatório quando a página carregar
-        window.addEventListener('DOMContentLoaded', () => {
-            const linkElement = document.getElementById('ads');
-            if (!linkElement) return;
-
-            const randomIndex = Math.floor(Math.random() * links.length);
-            linkElement.href = links[randomIndex];
-        });
-
-        // Configura a troca automática de links a cada 5 segundos (5000 ms)
-        setInterval(mudar, 0.5);
+        // Array com os links que vão rodar automaticamente
     </script>
 </body>
 </html>
